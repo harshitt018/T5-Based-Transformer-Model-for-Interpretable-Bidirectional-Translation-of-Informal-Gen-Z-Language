@@ -265,6 +265,6 @@ This project is intended for academic and research purposes. Please contact the 
 
 ---
 
-## Author
+## ✍️ Author
 
 Harshit Jaiswal
