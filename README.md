@@ -82,32 +82,42 @@ The framework incorporates lexical augmentation, normalization strategies, and a
 
 ## 🏗️ Architecture
 
-### 1. Architecture of the Fine-Tuned T5-Small Transformer-Based Gen-Z Slang Translation Model
+**Pipeline:** `Input Sentence → SentencePiece Tokenizer → T5 Encoder → T5 Decoder → Post Processing → Explainability Layer → Final Translation`
 
-<p align="center">
-<img src="images/architecture.png" width="1000">
-</p>
+```text
+Input: English Sentence / Gen-Z Slang Sentence
 
-The proposed architecture is built upon the T5-Small Transformer framework and follows an encoder-decoder design for bidirectional language translation. User input is first processed using SentencePiece tokenization, converting raw text into subword representations suitable for Transformer-based learning.
+├── SentencePiece Tokenizer
+│
+├── T5 Encoder
+│   ├── Multi-Head Attention
+│   ├── Feed-Forward Network
+│   └── Layer Normalization
+│
+├── T5 Decoder
+│   ├── Masked Self-Attention
+│   ├── Cross-Attention
+│   └── Feed-Forward Network
+│
+├── Post Processing Layer
+│   ├── Lexical Augmentation (English → Gen-Z)
+│   └── Lexical Normalization (Gen-Z → English)
+│
+├── Explainability Module
+│   ├── Word-Level Mapping
+│   ├── Transformation Tracking
+│   └── Translation Explanation
+│
+└── Final Translated Output
+```
 
-The tokenized sequence is then passed through the T5 encoder, where self-attention and feed-forward layers capture contextual semantic information. The encoded representation is subsequently processed by the T5 decoder, which generates translated text while preserving the original sentence meaning.
-
-A dedicated post-processing layer performs lexical augmentation for English-to-Gen-Z translation and lexical normalization for Gen-Z-to-English conversion. Finally, an explainability layer provides word-level transformation mappings and interpretation of translated outputs, improving transparency and user understanding.
-
----
-
-### 2. Overall Workflow of the Transformer-Based Bidirectional Gen-Z Slang Translation Pipeline
-
-<p align="center">
-<img src="images/workflow.png" width="1000">
-</p>
-
-The workflow begins with user selection of the translation direction, either English-to-Gen-Z or Gen-Z-to-English. Based on the selected direction, the input text undergoes preprocessing steps such as tokenization, noise handling, and task-specific prefix injection.
-
-The processed sequence is then fed into the fine-tuned T5 Transformer, which performs contextual translation using encoder-decoder attention mechanisms. After translation, specialized modules handle either lexical normalization or controlled slang injection depending on the translation direction.
-
-The translated output is further analyzed by an explainability module that highlights transformed words, tracks lexical substitutions, and generates word-level mappings. This provides both the final translation and an interpretable explanation of how the transformation occurred.
-
+- **Model Architecture:** T5-Small Transformer (Encoder–Decoder)
+- **Translation Type:** Bidirectional (English ↔ Gen-Z)
+- **Tokenizer:** SentencePiece Subword Tokenization
+- **Optimization:** AdamW Optimizer
+- **Loss Function:** Cross-Entropy Loss
+- **Evaluation Metrics:** BLEU Score, Semantic Similarity Analysis
+- **Interpretability:** Explainability Layer with Word-Level Transformations
 ---
 
 ## 📊 Results
