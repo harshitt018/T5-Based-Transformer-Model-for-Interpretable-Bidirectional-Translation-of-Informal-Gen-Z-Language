@@ -1,0 +1,73 @@
+1. Kaggle. (2023). Gen-Z slang sentence pairs dataset (Version 1) [Dataset]. Kaggle. https://www.kaggle.com/datasets/programmerrdai/genz-slang-pairs-1k  
+
+2. Bucur, A.-M., Cosma, A., & Dinu, L. P. (2021). Sequence-to-sequence lexical normalization with multilingual transformers. https://arxiv.org/abs/2110.02869 
+
+3. Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., & Amodei, D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems. https://arxiv.org/abs/2005.14165 
+
+4. Camacho-Collados, J., Rezaee, K., Riahi, T., Ushio, A., Loureiro, D., Antypas, D., Boisson, J., Espinosa-Anke, L., Liu, F., Martínez-Cámara, E., Medina, G., Buhrmann, T., Neves, L., & Barbieri, F. (2022). TweetNLP: Cutting-edge natural language processing for social media. https://arxiv.org/abs/2206.14774  
+
+5. Chen, Z., Qiu, Z., & Chen, N. (2024). Bidirectional multi-stack RNNs with attention for machine translation. IEEE. https://ieeexplore.ieee.org/abstract/document/10430889/authors#authors 
+
+6. Clark, K., Khandelwal, U., Levy, O., & Manning, C. D. (2019). What does BERT look at? An analysis of BERT’s attention. https://arxiv.org/abs/1906.04341 
+
+7. Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. https://aclanthology.org/N19-1423 
+
+8. Diwan, A., Choi, E., & Harwath, D. (2023). When to use efficient self-attention? Profiling text, speech and image transformer variants. arXiv. https://arxiv.org/pdf/2306.08667  
+
+9. Eisenstein, J. (2013). What to do about bad language on the internet. https://aclanthology.org/N13-1037.pdf 
+
+10. Fantozzi, P., & Naldi, M. (2024). The explainability of transformers: Current status and directions. Computers. https://www.mdpi.com/2073-431X/13/4/92 
+
+11. Felbo, B., Mislove, A., Søgaard, A., Rahwan, I., & Lehmann, S. (2017). Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm. https://arxiv.org/abs/1708.00524 
+
+12. Fu, Z., Tan, X., Peng, N., Zhao, D., & Yan, R. (2018). Style transfer in text: Exploration and evaluation. https://arxiv.org/abs/1711.06861 
+
+13. Gehring, J., Auli, M., Grangier, D., Yarats, D., & Dauphin, Y. N. (2017). Convolutional sequence to sequence learning. https://arxiv.org/abs/1705.03122 
+
+14. Hovy, D., & Yang, D. (2021). The importance of modeling social factors of language: Theory and practice. https://aclanthology.org/2021.naacl-main.49 
+
+15. Ibrahim, A. A., & Mustafa, B. S. (2023). Intelligent system to transform slang words into formal words. NTU Journal for Engineering and Technology. https://journals.ntu.edu.iq/index.php/NTU-JET/article/view/689 
+
+16. Ishita, & Mamidi, R. (2025). The evolution of Gen Alpha slang: Linguistic patterns and AI translation challenges. https://aclanthology.org/anthology-files/pdf/acl/2025.acl-srw.43.pdf 
+
+17. Johnson, M., Schuster, M., Le, Q. V., Krikun, M., Wu, Y., Chen, Z., Thorat, N., Viégas, F., Wattenberg, M., Corrado, G., Hughes, M., & Dean, J. (2017). Google’s multilingual neural machine translation system: Enabling zero-shot translation. https://arxiv.org/abs/1611.04558 
+
+18. Kadem, M., & Zheng, R. (2026). Interpreting transformers through attention head intervention. arXiv. https://arxiv.org/abs/2601.04398 
+
+19. Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., Stoyanov, V., & Zettlemoyer, L. (2020). BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. https://aclanthology.org/2020.acl-main.703/ 
+
+20. Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., & Stoyanov, V. (2019). RoBERTa: A robustly optimized BERT pretraining approach. https://arxiv.org/abs/1907.11692 
+
+21. Man, C. Z., Win, S. S. M., & Khine, K. L. L. (2024). Fine-tuning the mT5 model on bidirectional Myanmar and Tedim Chin machine translation system. International Journal of Computer Science. https://www.iaeng.org/IJCS/issues_v52/issue_12/IJCS_52_12_03.pdf 
+
+22. Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L. (2018). Deep contextualized word representations. https://arxiv.org/abs/1802.05365 
+
+23. Pew Research Center. (2019). Where Millennials end and Generation Z begins. https://www.pewresearch.org/short-reads/2019/01/17/where-millennials-end-and-generation-z-begins/  
+
+24. Priccilia, S., & Erin. Sentiment analysis of slang language trends in Generation Alpha on social media using BERT. https://doi.org/10.21512/emacsjournal.v7i2.13368 
+
+25. Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). Improving language understanding by generative pre-training. https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf 
+
+26. Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J. (2020). Exploring the limits of transfer learning with a unified text-to-text transformer. https://arxiv.org/abs/1910.10683 
+
+27. Sap, M., Gabriel, S., Qin, L., Jurafsky, D., Smith, N. A., & Choi, Y. (2020). Social bias frames: Reasoning about social and power implications of language. https://arxiv.org/abs/1911.03891 
+
+28. Sennrich, R., Haddow, B., & Birch, A. (2016). Neural machine translation of rare words with subword units. https://arxiv.org/abs/1508.07909 
+
+29. Shen, J., Qu, Y., Zhang, W., & Yu, Y. (2017). Style transfer from non-parallel text by cross-alignment. https://arxiv.org/abs/1705.09655  
+
+30. Song, L., Cui, Y., Luo, A., Lecue, F., & Li, I. (2024). Better explain transformers by illuminating important information. Findings of the Association for Computational Linguistics (ACL). https://aclanthology.org/2024.findings-eacl.138/ 
+
+31. Tang, L. (2024). Optimization of English machine translation based on bidirectional encoder representations from transformers-integrated neural architectures. IEEE. https://ieeexplore.ieee.org/abstract/document/11070579/authors#authors 
+
+32. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. https://arxiv.org/abs/1706.03762 
+
+33. Yang, W., & Eisenstein, J. (2017). Overcoming language variation in sentiment analysis with social attention. https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00062/43395 
+
+34. Yano, C., Fukuchi, A., Fukasawa, S., Tachibana, H., & Watanabe, Y. (2024). Multilingual Sentence-T5: Scalable sentence encoders for multilingual applications. Proceedings of LREC-COLING 2024. https://aclanthology.org/2024.lrec-main.1034/ 
+
+35. Zaki, M. Z. (2023). Revolutionising translation technology: A comparative study of variant transformer models—BERT, GPT and T5. https://www.academia.edu/download/116199770/Published_Revolutionising_Trans_Tech.pdf 
+
+36. Zhang, S., Dinan, E., Urbanek, J., Szlam, A., Kiela, D., & Weston, J. (2020). DialoGPT: Large-scale generative pre-training for conversational response generation. https://aclanthology.org/2020.acl-demos.30/ 
+
+37. Zhu, J., Sun, H., & Kong, B. (2025). Improving multilingual English translation performance through T5 and MAML integration. Results in Engineering. https://www.sciencedirect.com/science/article/pii/S2772941925002133 
